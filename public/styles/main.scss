@@ -1,0 +1,22 @@
+// CORE
+@import '_core/bower';
+@import '_core/variables';
+@import '_core/animation';
+
+// HOUSEKEEPING
+*,
+*::before, *::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-size: $fs-base;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+}
